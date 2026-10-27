@@ -1,0 +1,32 @@
+GUIA DBD — VERSÃO PARA IPHONE (site que vira app)
+
+COMO COLOCAR NO AR (escolha UMA opção)
+
+Opção A — GitHub Pages (grátis)
+1. Crie um repositório NOVO e PÚBLICO no GitHub (ex.: guia-dbd-web). Use um repositório separado do que serve as atualizações do app Android.
+2. Clique em "Add file" > "Upload files" e envie TODO o conteúdo desta pasta (index.html, data.json, sw.js, manifest.webmanifest, os ícones e a pasta img). Se o navegador limitar a quantidade de arquivos, envie a pasta img por partes ou use o GitHub Desktop.
+3. Em Settings > Pages: "Deploy from a branch", branch main, pasta "/ (root)", Save.
+4. Em 1 a 2 minutos o endereço aparece: https://SEU_USUARIO.github.io/guia-dbd-web/
+
+Opção B — Netlify Drop (mais rápido, sem Git)
+1. Acesse app.netlify.com/drop e arraste a PASTA inteira.
+2. Ele gera um endereço; mande para o seu amigo.
+
+NO IPHONE
+1. Abrir o endereço no SAFARI (não no navegador embutido do WhatsApp/Instagram).
+2. Tocar em Compartilhar (quadrado com seta) > "Adicionar à Tela de Início".
+3. Abre em tela cheia como um app e funciona offline depois da primeira visita (as imagens são guardadas conforme ele navega).
+
+O QUE TEM
+- Sobreviventes e Assassinos (100 personagens, 324 vantagens), com busca por nome, vantagem ou efeito
+- Add-ons dos assassinos (880), dentro da tela de cada assassino
+- Roleta de vantagens
+- Builder: monta, salva (até 8, no próprio aparelho), renomeia, carrega e envia a build como imagem
+- NÃO tem: aba CHASE (músicas). Os áudios têm direitos autorais, pesam ~66 MB e o iPhone exige regras próprias de reprodução.
+
+COMO ATUALIZAR O CONTEÚDO
+- Os textos estão em data.json. Depois de trocar o arquivo, aumente o VERSION no sw.js (ex.: v1 > v2) para os celulares pegarem a versão nova.
+- Se preferir, peça para gerar um data.json novo a partir do seu app.
+
+OBSERVAÇÃO
+- Ícones, imagens e textos vêm do jogo e do seu app. Mantenha o endereço só entre amigos e evite divulgar publicamente.
