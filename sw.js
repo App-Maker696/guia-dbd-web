@@ -1,6 +1,6 @@
 // Service worker: o app abre offline depois da primeira visita.
 // Para forçar todo mundo a baixar tudo de novo, aumente VERSION.
-const VERSION = 'v1';
+const VERSION = 'v2';
 const CORE = `core-${VERSION}`, IMGS = `img-${VERSION}`;
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png', 'data.json', 'img/fundo_app.webp'];
 
